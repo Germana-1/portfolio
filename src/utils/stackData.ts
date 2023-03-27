@@ -9,6 +9,9 @@ import {
   FaNode,
   FaReact,
 } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { DiDjango } from "react-icons/di";
+import { AiFillGithub } from "react-icons/ai";
 
 export const stackData = [
   {
@@ -28,13 +31,17 @@ export const stackData = [
     title: "Node JS",
     img: FaNode,
   },
+  { title: "Express", img: SiExpress },
   {
     title: "React",
     img: FaReact,
   },
   { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
+
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  { title: "Django", img: DiDjango },
+
+  { title: "GitHub", img: AiFillGithub },
 ];
